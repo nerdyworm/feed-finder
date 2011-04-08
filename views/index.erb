@@ -5,8 +5,4 @@
   <button>Find podcast url</button>
 </form>
 
-<% if @feed %>
-  <h2 id="feed_url"><%= @feed.feed_url %></h2>
-<% else %>
-  <h2 id="feed_url">&nbsp;</h2>
-<% end %>
+<h2 id="feed_url"><%= @feed.feed_url if @feed%></h2>
