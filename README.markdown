@@ -8,7 +8,8 @@ from the itunes url.
 [http://feed-finder.heroku.com](http://feed-finder.heroku.com)
 
 ## Requirements
-    $ gem install sinatra json erb
+    $ gem install bundler
+    $ bundle install 
 
 ## Usage
     $ rackup config.ru
