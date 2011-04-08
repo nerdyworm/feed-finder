@@ -5,7 +5,7 @@ from the itunes url.
 
 ## Demo
 
-{http://feed-finder.heroku.com}[http://feed-finder.heroku.com]
+http://feed-finder.heroku.com
 
 ## Requirements
     $ gem install sinatra json erb
